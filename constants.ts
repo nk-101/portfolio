@@ -23,31 +23,55 @@ export const SKILLS_DATA: SkillCategory[] = [
   { title: 'AI/ML & Data Science', skills: [{ name: 'Deep Learning' }, { name: 'Computer Vision' }, { name: 'NLP' }, { name: 'ML Algorithms' }, { name: 'CNNs' }] },
   { title: 'Cloud & Networking', skills: [{ name: 'Google Cloud' }, { name: 'Oracle Cloud' }, { name: 'Cisco Networking' }, { name: 'VLANs' }, { name: 'DHCP' }, { name: 'Firewalls' }] },
 ];
-
 export const PROJECTS_DATA: Project[] = [
   {
-    title: 'Weather Now - Real Time Weather App',
-    description: 'Built using React (Vite + TypeScript) and Tailwind CSS to fetch live weather data via Open-Meteo Geocoding & Forecast APIs. Implemented fuzzy search and efficient state management.',
-    link: '#',
-    tags: ['React', 'TypeScript', 'TailwindCSS', 'Vercel']
-  },
-  {
-    title: 'Chitzy - Real Time Chat Application',
-    description: 'Developed a MERN stack app with Socket.io for instant messaging and JWT-based authentication. Optimized backend APIs for secure, concurrent communication.',
-    link: '#',
-    tags: ['MERN', 'Socket.io', 'JWT', 'MongoDB']
-  },
-  {
-    title: 'Aquatic Ecosystem Assessment with AI',
-    description: 'Applied DeepLabV3+ (ResNet-50) for image segmentation, achieving 96% accuracy and 0.78 IoU. Deployed a Flask + MongoDB pipeline for scalable analysis.',
-    link: '#',
+    title: 'From Pixels to Plants – Aquatic Ecosystem Assessment with AI',
+    description:
+      'Developed a DeepLabV3+ (ResNet-50) model to segment 32 aquatic plant species from UAV images. Achieved 96% accuracy and 0.78 IoU, deployed via Flask and MongoDB for scalable ecosystem monitoring.',
+    link: 'https://github.com/nk-101/From-Pixels-to-Plants-Revolutionizing-Aquatic-Ecosystem.git',
     tags: ['DeepLabV3+', 'ResNet-50', 'Flask', 'MongoDB']
   },
   {
+    title: 'Personal Portfolio Website',
+    description:
+      'Designed and developed a modern portfolio using React (Vite + TypeScript) and Tailwind CSS to showcase skills, projects, and achievements. Fully responsive and supports dark mode.',
+    link: 'https://my-portfolio-ochre-eight-acrcc3dyj5.vercel.app/',
+    tags: ['React', 'TypeScript', 'TailwindCSS', 'Vite']
+  },
+  {
+    title: 'Weather Now – Real Time Weather App',
+    description:
+      'Created a weather web app using React (Vite + TypeScript) that displays real-time weather, temperature, and forecast using the Open-Meteo API with fuzzy city search and responsive UI.',
+    link: 'https://weather-now-dz44.vercel.app/',
+    tags: ['React', 'TypeScript', 'TailwindCSS', 'Vercel']
+  },
+  {
+    title: 'Chitzy – Real Time Chat Application',
+    description:
+      'Built a secure real-time chat application using the MERN stack with Socket.io for instant messaging and JWT authentication. Optimized backend APIs for performance and scalability.',
+    link: 'https://github.com/nk-101/MERN-Stack-Project.git',
+    tags: ['MERN', 'Socket.io', 'JWT', 'MongoDB']
+  },
+  {
     title: 'Face Recognition Attendance System',
-    description: 'Created a Python + OpenCV application for real-time face detection and recognition, focusing on improving model accuracy and reliability.',
-    link: '#',
+    description:
+      'Implemented a Python + OpenCV system for real-time face detection and recognition to automate attendance marking with improved accuracy and security.',
+    link: 'https://github.com/nk-101/Face-Recognition-Attendance-System.git',
     tags: ['Python', 'OpenCV', 'Face Recognition']
+  },
+  {
+    title: 'RoboSpeaker – Text to Speech Assistant',
+    description:
+      'Developed a simple Python-based text-to-speech assistant using pyttsx3 for converting text into natural-sounding audio, designed for accessibility and automation.',
+    link: 'https://github.com/nk-101/RoboSpeaker.git',
+    tags: ['Python', 'pyttsx3', 'Speech Synthesis']
+  },
+  {
+  title: 'Cisco Network Infrastructure Design',
+  description:
+    'Designed and configured a secure multi-branch network using Cisco technologies at STEAG Energy Services. Implemented VLANs, DHCP, NAT, and port security with real-world deployment experience.',
+  link: 'https://github.com/nk-101/Network-Infrastructure-Design',
+  tags: ['Cisco', 'Networking', 'Firewall', 'VLAN', 'DHCP']
   }
 ];
 
@@ -118,22 +142,25 @@ export const CERTIFICATES_DATA: Certificate[] = [
     imageUrl: 'https://placehold.co/800x600/1e293b/94a3b8/png?text=Oracle+Cloud+Certificate',
   },
 ];
-
 export const ACHIEVEMENTS_DATA: Achievement[] = [
   {
-    title: 'Smart India Hackathon 2023 Finalist',
-    description: 'Selected as a finalist for proposing an innovative AI-driven solution for sustainable urban planning.',
+    title: 'Research Paper Accepted - ATSA 2024',
+    description:
+      'Manuscript titled "AI and ML in Water Quality Analysis: A Review" accepted for presentation at the 5th International Conference on Advanced Technologies for Societal Applications (ATSA 2024), SVERI’s College of Engineering, Pandharpur.',
   },
   {
-    title: 'Top 5% on CodeChef',
-    description: 'Achieved a high ranking on CodeChef through consistent participation in competitive programming contests.',
+    title: 'Research Presentation - ICRAES 2025',
+    description:
+      'Presented paper "From Pixels to Plants: Revolutionizing Aquatic Ecosystem Using AI" at the International Conference on Recent Advances in Engineering and Science (ICRAES 2025), Bharati Vidyapeeth (Deemed University), Pune.',
   },
   {
-    title: 'Dean\'s List for Academic Excellence',
-    description: 'Recognized on the Dean\'s List for three consecutive semesters for outstanding academic performance.',
+    title: '5★ in Python - HackerRank',
+    description:
+      'Achieved 5-star rating in Python programming, demonstrating strong coding and problem-solving proficiency.',
   },
   {
-    title: 'Open Source Contributor',
-    description: 'Contributed to a popular open-source machine learning library, with a pull request merged for a bug fix.',
+    title: '3★ in SQL - HackerRank',
+    description:
+      'Earned 3-star rating in SQL for database querying and optimization challenges on HackerRank.',
   },
 ];
