@@ -35,7 +35,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Personal Portfolio Website',
     description:
       'Designed and developed a modern portfolio using React (Vite + TypeScript) and Tailwind CSS to showcase skills, projects, and achievements. Fully responsive and supports dark mode.',
-    link: 'https://my-portfolio-ochre-eight-acrcc3dyj5.vercel.app/',
+    link: 'https://portfolio-five-zeta-65.vercel.app/',
     tags: ['React', 'TypeScript', 'TailwindCSS', 'Vite']
   },
   {
