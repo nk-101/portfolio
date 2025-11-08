@@ -8,21 +8,21 @@ export const PERSONAL_INFO = {
   email: "nidhikumar.scoe.comp@gmail.com",
   linkedin: "https://www.linkedin.com/in/nidhi-kumari-/",
   github: "https://github.com/nidhikumari-.",
-  profileSummary: "Computer Engineering graduate (2025) skilled in Python, Java, and C++ with a strong grasp of data structures, OOP, and operating systems. Experienced in developing, debugging, and testing software in Linux environments. Passionate about open source, teamwork, and building scalable AI-driven applications."
+  //profileSummary: "Computer Engineering graduate (2025) skilled in Python, Java, and C++ with a strong grasp of data structures, OOP, and operating systems. Experienced in developing, debugging, and testing software in Linux environments. Passionate about open source, teamwork, and building scalable AI-driven applications."
+  profileSummary: "Computer Engineering graduate skilled in AI/ML, web development, and networking. Experienced in building deep learning models, LLM-based systems, and scalable full-stack applications. Proficient in Python, C++, and MERN stack, with hands-on exposure to Cisco network design and cloud deployment. Passionate about solving real-world problems through intelligent and efficient tech solutions."
+
 };
 
-
 export const SKILLS_DATA: SkillCategory[] = [
-  { title: 'Programming Languages', skills: [{ name: 'Python' }, { name: 'Java' }, { name: 'C++' }] },
-  { title: 'Web Technologies', skills: [{ name: 'React.js' }, { name: 'Node.js' }, { name: 'Express.js' }, { name: 'HTML' }, { name: 'CSS' }, { name: 'REST APIs' }] },
-  { title: 'Databases', skills: [{ name: 'MySQL' }, { name: 'MongoDB' }] },
-  { title: 'Frameworks & Tools', skills: [{ name: 'Flask' }, { name: 'TensorFlow' }, { name: 'PyTorch' }, { name: 'Git' }, { name: 'Kubernetes' }] },
-  { title: 'Operating Systems', skills: [{ name: 'Linux' }, { name: 'Windows' }] },
-  { title: 'Software Development', skills: [{ name: 'Agile Methodologies' }, { name: 'Debugging' }, { name: 'Testing' }, { name: 'Version Control (Git/GitHub)' }] },
+  { title: 'Programming Languages', skills: [{ name: 'Python' }, { name: 'C++' }, { name: 'Java' }] },
+  { title: 'AI / ML & Data Science', skills: [{ name: 'Deep Learning' }, { name: 'Computer Vision' }, { name: 'Natural Language Processing (NLP)' }, { name: 'LLMs (Large Language Models)' }, { name: 'RAG (Retrieval-Augmented Generation)' }, { name: 'Prompt Engineering' }, { name: 'LangChain' }, { name: 'CNNs' }, { name: 'ML Algorithms' }] },
+  { title: 'Web Technologies', skills: [{ name: 'React.js' }, { name: 'Node.js' }, { name: 'Express.js' }, { name: 'MongoDB' }, { name: 'Flask' }, { name: 'REST APIs' }, { name: 'Tailwind CSS' }, { name: 'TypeScript' }] },
+  { title: 'Cloud & Networking', skills: [{ name: 'Google Cloud' }, { name: 'Cisco Networking' }, { name: 'Network Security' }, { name: 'VLANs' }, { name: 'DHCP' }, { name: 'Firewalls' }] },
+  { title: 'Frameworks & Tools', skills: [{ name: 'TensorFlow' }, { name: 'PyTorch' }, { name: 'Git & GitHub' }, { name: 'Docker' }, { name: 'VS Code' }] },
   { title: 'Core CS Concepts', skills: [{ name: 'Data Structures' }, { name: 'Algorithms' }, { name: 'Object-Oriented Programming' }, { name: 'Operating Systems' }] },
-  { title: 'AI/ML & Data Science', skills: [{ name: 'Deep Learning' }, { name: 'Computer Vision' }, { name: 'NLP' }, { name: 'ML Algorithms' }, { name: 'CNNs' }] },
-  { title: 'Cloud & Networking', skills: [{ name: 'Google Cloud' }, { name: 'Oracle Cloud' }, { name: 'Cisco Networking' }, { name: 'VLANs' }, { name: 'DHCP' }, { name: 'Firewalls' }] },
+  { title: 'Software Development', skills: [{ name: 'Agile Methodologies' }, { name: 'Debugging' }, { name: 'Testing' }, { name: 'API Integration' }] }
 ];
+
 export const PROJECTS_DATA: Project[] = [
   {
     title: 'From Pixels to Plants – Aquatic Ecosystem Assessment with AI',
@@ -121,27 +121,64 @@ export const EDUCATION_DATA: Education[] = [
 
 export const CERTIFICATES_DATA: Certificate[] = [
   {
-    name: 'Cisco Certified Network Associate (CCNA)',
-    issuer: 'Cisco',
-    year: '2024',
-    description: 'Mastered foundational networking concepts, including IP addressing, network security, and router/switch configuration.',
-    imageUrl: 'https://placehold.co/800x600/1e293b/94a3b8/png?text=CCNA+Certificate',
-  },
-  {
-    name: 'MERN Stack Development',
-    issuer: 'ScaleFull Technologies',
-    year: '2024',
-    description: 'Gained expertise in building full-stack web applications using MongoDB, Express.js, React, and Node.js.',
-    imageUrl: 'https://placehold.co/800x600/1e293b/94a3b8/png?text=MERN+Stack+Certificate',
-  },
-  {
-    name: 'Oracle Cloud Infrastructure 2023 Certified Foundations Associate',
+    name: 'Oracle Cloud Infrastructure 2025 Certified Data Science Professional',
     issuer: 'Oracle',
-    year: '2023',
-    description: 'Demonstrated foundational knowledge of core cloud computing concepts and Oracle Cloud Infrastructure services.',
-    imageUrl: 'https://placehold.co/800x600/1e293b/94a3b8/png?text=Oracle+Cloud+Certificate',
+    year: '2025',
+    description: 'Earned Oracle Cloud certification for data science expertise in OCI, covering model deployment, AI workflows, and analytics.',
+    imageUrl: '/oracle-cert.png'
   },
+  {
+    name: 'Prompt Design in Vertex AI – Skill Badge',
+    issuer: 'Google Cloud Skills Boost',
+    year: '2025',
+    description: 'Gained expertise in prompt engineering, LLM integration, and multimodal generative AI using Vertex AI.',
+    imageUrl: '/vertex-ai-badge.png'
+  },
+  {
+    name: 'Tata Data Visualisation – Job Simulation',
+    issuer: 'Tata Group (Forage)',
+    year: '2025',
+    description: 'Completed a virtual job simulation focused on business data visualization and storytelling using Tableau and Power BI.',
+    imageUrl: '/tata-forage.png'
+  },
+  {
+    name: 'Google Cloud Computing Foundations',
+    issuer: 'Google Cloud Skills Boost',
+    year: '2023',
+    description: 'Completed foundational Google Cloud training covering cloud architecture, APIs, and GenAI workflows under GDSC Study Jam 2023.',
+    imageUrl: '/google-cloud-foundations.jpg'
+  },
+  {
+    name: 'Generative AI',
+    issuer: 'LinkedIn Learning',
+    year: '2024',
+    description: 'Completed certification in Generative AI, exploring prompt design, LLMs, and ethical AI applications.',
+    imageUrl: '/linkedin-genai.jpeg'
+  },
+  {
+    name: 'MERN Stack Web Development',
+    issuer: 'Wisdom Sprouts IT Training Hub',
+    year: '2024',
+    description: 'Completed full-stack MERN development training focused on building scalable, interactive, and real-time web applications.',
+    imageUrl: '/mern-webdev.png'
+  },
+  {
+    name: 'Artificial Intelligence',
+    issuer: 'YHills',
+    year: '2023',
+    description: 'Completed professional training on Artificial Intelligence, covering ML algorithms, neural networks, and model evaluation.',
+    imageUrl: '/yhills-ai.png'
+  },
+  {
+    name: 'Core Java',
+    issuer: 'N Infinity Info Solutions',
+    year: '2023',
+    description: 'Completed Core Java training covering OOP concepts, exception handling, and data structure fundamentals.',
+    imageUrl: '/core-java.png'
+  }
 ];
+
+
 export const ACHIEVEMENTS_DATA: Achievement[] = [
   {
     title: 'Research Paper Accepted - ATSA 2024',
@@ -152,6 +189,7 @@ export const ACHIEVEMENTS_DATA: Achievement[] = [
     title: 'Research Presentation - ICRAES 2025',
     description:
       'Presented paper "From Pixels to Plants: Revolutionizing Aquatic Ecosystem Using AI" at the International Conference on Recent Advances in Engineering and Science (ICRAES 2025), Bharati Vidyapeeth (Deemed University), Pune.',
+    
   },
   {
     title: '5★ in Python - HackerRank',
