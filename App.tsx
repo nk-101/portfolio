@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Certificates from './components/Certificates';
 import Achievements from './components/Achievements';
 import ThemeToggle from './components/ThemeToggle';
+import MenuIcon from './components/icons/MenuIcon';
 
 export type Page = 'Home' | 'About' | 'Skills' | 'Projects' | 'Experience' | 'Education' | 'Certificates' | 'Achievements';
 export type Theme = 'light' | 'dark';
@@ -17,6 +18,7 @@ export type Theme = 'light' | 'dark';
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>('Home');
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [theme, setTheme] = useState<Theme>(() => {
     return (localStorage.getItem('theme') as Theme) || 'dark';
   });
@@ -37,6 +39,7 @@ const App: React.FC = () => {
 
   const navigateTo = (page: Page) => {
     if (page !== currentPage) {
+      setIsMobileMenuOpen(false); // Close menu on navigation
       setIsAnimating(true);
       setTimeout(() => {
         setCurrentPage(page);
@@ -73,9 +76,24 @@ const App: React.FC = () => {
       <Sidebar 
         currentPage={currentPage} 
         navigateTo={navigateTo} 
+        isMobileMenuOpen={isMobileMenuOpen}
+        setIsMobileMenuOpen={setIsMobileMenuOpen}
       />
-      <main className="relative flex-1 p-4 md:p-8 lg:p-12 md:ml-20 lg:ml-64">
-        <div className="absolute top-4 right-4 z-50">
+      <header className="md:hidden fixed top-0 left-0 right-0 h-16 flex justify-between items-center px-4 bg-white/90 dark:bg-slate-900/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800 z-40">
+        <button
+          onClick={() => setIsMobileMenuOpen(true)}
+          className="p-2 text-slate-500 dark:text-slate-400"
+          aria-label="Open menu"
+        >
+          <MenuIcon className="w-6 h-6" />
+        </button>
+        <span className="text-lg font-semibold text-slate-900 dark:text-white">{currentPage}</span>
+        <div className="w-10 h-10 flex items-center justify-end">
+          <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+        </div>
+      </header>
+      <main className="relative flex-1 p-4 md:p-8 lg:p-12 md:ml-64 pt-20 md:pt-8 lg:pt-12">
+        <div className="absolute top-4 right-4 z-30 hidden md:block">
             <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         </div>
         <div className={`transition-opacity duration-300 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
