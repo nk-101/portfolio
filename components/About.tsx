@@ -108,9 +108,11 @@ const About: React.FC = () => {
             alt="Nidhi Pawan Kumar"
             className="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-cyan-400 mb-8 transition-transform duration-300 hover:scale-105"
           />
+          
           <p className="text-lg md:text-xl leading-relaxed text-slate-600 dark:text-slate-300 mb-8">
             {PERSONAL_INFO.profileSummary}
-          </p>
+          </p> 
+          
           <a
             href="/Nidhi_Kumar_Resume.pdf"
             download

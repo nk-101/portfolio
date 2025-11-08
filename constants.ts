@@ -3,11 +3,11 @@ import type { SkillCategory, Project, Experience, Education, Certificate, Achiev
 
 export const PERSONAL_INFO = {
   name: "Nidhi Kumar",
-  title: "Computer Engineering Student",
+  title: "Computer Engineer",
   location: "Pune, India",
   email: "nidhikumar.scoe.comp@gmail.com",
-  linkedin: "https://www.linkedin.com/in/nidhi-kumari-/",
-  github: "https://github.com/nidhikumari-.",
+  linkedin: "https://www.linkedin.com/in/nidhi-p-kumar/",
+  github: "https://github.com/nk-101",
   //profileSummary: "Computer Engineering graduate (2025) skilled in Python, Java, and C++ with a strong grasp of data structures, OOP, and operating systems. Experienced in developing, debugging, and testing software in Linux environments. Passionate about open source, teamwork, and building scalable AI-driven applications."
   profileSummary: "Computer Engineering graduate skilled in AI/ML, web development, and networking. Experienced in building deep learning models, LLM-based systems, and scalable full-stack applications. Proficient in Python, C++, and MERN stack, with hands-on exposure to Cisco network design and cloud deployment. Passionate about solving real-world problems through intelligent and efficient tech solutions."
 
