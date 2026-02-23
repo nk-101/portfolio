@@ -77,6 +77,17 @@ export const PROJECTS_DATA: Project[] = [
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
+    role: 'Machine Learning Intern',
+    company: 'CurioNext Labs Private Limited',
+    duration: 'Dec 2025 - Feb 2026',
+    description: [
+      'Developed and fine-tuned machine learning models for domain-specific applications.',
+      'Implemented backend APIs to integrate ML models into scalable system workflows.',
+      'Designed and optimized data preprocessing pipelines for structured and unstructured datasets.',
+      'Collaborated on modular backend architecture to support model inference and retrieval systems.'
+    ]
+  },
+  {
     role: 'Networking & Cisco Firewall Intern',
     company: 'Steag Energy India Private Limited',
     duration: 'June 2024 - July 2024',
