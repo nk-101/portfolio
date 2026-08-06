@@ -77,6 +77,17 @@ export const PROJECTS_DATA: Project[] = [
 
 export const EXPERIENCE_DATA: Experience[] = [
   {
+  role: 'Associate Prompt Engineer',
+  company: 'NVIDIA - Spectrum Consultants',
+  duration: 'Apr 2026 - Present',
+  description: [
+    "Developed prompts and curated multimodal datasets for training NVIDIA's Large Language Models (LLMs).",
+    'Performed quality assurance on 1000+ computer vision datasets using SuperAnnotate, ensuring high annotation accuracy and guideline compliance.',
+    'Collaborated with cross-functional teams to support AI model development through high-quality training data.',
+    'Maintained project quality standards while delivering large-scale annotation and visual grounding tasks.'
+  ]
+},
+  {
     role: 'Machine Learning Intern',
     company: 'CurioNext Labs Private Limited',
     duration: 'Dec 2025 - Feb 2026',
