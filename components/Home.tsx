@@ -66,6 +66,12 @@ const Home: React.FC<HomeProps> = ({ navigateTo }) => {
         >
           View My Work
         </button>
+        <button
+          onClick={() => navigateTo('About')}
+          className="bg-cyan-500 text-slate-900 font-bold py-3 px-8 rounded-full hover:bg-cyan-400 transition-all duration-300 transform hover:scale-105"
+        >
+          More about me
+        </button>
       </div>
     </div>
   );
