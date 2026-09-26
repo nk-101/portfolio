@@ -7,7 +7,7 @@ import DownloadIcon from './icons/DownloadIcon';
 const About: React.FC = () => {
   return (
     <>
-      <Section title="About Me">
+      <Section title="About Me" centered>
         <div className="max-w-4xl mx-auto">
           <p className="text-lg md:text-xl leading-relaxed text-slate-600 dark:text-slate-300 mb-8">
             {PERSONAL_INFO.profileSummary}
@@ -23,7 +23,7 @@ const About: React.FC = () => {
         </div>
       </Section>
 
-      <Section title="Contact Me">
+      <Section title="Contact Me" centered>
         <div className="max-w-4xl mx-auto">
            <p className="text-slate-500 dark:text-slate-400 mb-8">
             Have a question or want to work together? Feel free to reach out.
