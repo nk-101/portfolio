@@ -76,15 +76,26 @@ export const PROJECTS_DATA: Project[] = [
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
+{
+  role: 'Jr. Associate Process Executive',
+  company: 'NVIDIA - Zensar Technologies',
+  duration: 'Aug 2026 - Present',
+  description: [
+    "Perform quality analysis on a critical NVIDIA AI training project, ensuring data accuracy, consistency, and adherence to defined quality standards.",
+    'Conduct quality assurance on computer vision datasets and identify annotation errors, inconsistencies, and guideline deviations.',
+    'Review and validate large-scale annotation and visual grounding tasks to maintain high-quality AI training data.',
+    'Collaborate with cross-functional teams to identify quality issues and improve project workflows and overall data quality.'
+  ]
+},
   {
   role: 'Associate Prompt Engineer',
   company: 'NVIDIA - Spectrum Consultants',
-  duration: 'Apr 2026 - Present',
+  duration: 'Apr 2026 - Aug 2026',
   description: [
-    "Developed prompts and curated multimodal datasets for training NVIDIA's Large Language Models (LLMs).",
-    'Performed quality assurance on 1000+ computer vision datasets using SuperAnnotate, ensuring high annotation accuracy and guideline compliance.',
-    'Collaborated with cross-functional teams to support AI model development through high-quality training data.',
-    'Maintained project quality standards while delivering large-scale annotation and visual grounding tasks.'
+    "Developed and refined prompts for 3000+ multimodal datasets supporting NVIDIA's Large Language Model (LLM) training workflows.",
+    'Performed large-scale annotation and visual grounding tasks for computer vision datasets using SuperAnnotate.',
+    'Reviewed and validated training data for accuracy, consistency, and adherence to project-specific guidelines.',
+    'Collaborated with project teams to support high-quality multimodal AI training data.'
   ]
 },
   {
