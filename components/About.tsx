@@ -27,6 +27,7 @@ const About: React.FC = () => {
         <div className="max-w-4xl mx-auto">
            <p className="text-slate-500 dark:text-slate-400 mb-8">
             Have a question or want to work together? Feel free to reach out.
+            Linkedin URL: www.linkedin.com/in/nidhi-p-kumar
           </p>
           <form
             onSubmit={(e) => {
